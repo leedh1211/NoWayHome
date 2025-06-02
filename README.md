@@ -1,5 +1,5 @@
 ## 📖 목차
-1. [플레이 화면](#플레이-화면)
+1. [플레이 화면](#-플레이-화면)
 2. [조작법](#조작법)
 3. [개요](#-개요)
 4. [팀 정보](#-팀-정보)
@@ -7,16 +7,39 @@
 6. [게임 흐름](#-게임-흐름)
 7. [핵심 기능 설명](#-핵심-기능-설명)
 8. [클래스 구조](#-클래스-구조)
-9. [개발 환경](#-개발-환경)
+9. [개발 환경](#개발-환경)
     
 # No Way Home: 우주에서 살아남기 (Space Survival)
 
-## 플레이 화면
+## 🎮 플레이 화면
+
+### 🚀 게임 시작 화면
+<img src="https://github.com/user-attachments/assets/5d97db09-341e-4746-a60f-d2c431c19d9f" width="480"/>
+
+### ⛏️ 채굴 & 아이템 줍기
+<img src="https://github.com/user-attachments/assets/0f5c263f-d939-4588-846a-7aa68bb14d45" width="480"/>
+
+### 🛒 상점 UI
+<img src="https://github.com/user-attachments/assets/055abcef-d57b-4477-a57c-7d52e841781c" width="480"/>
+
+### ✨ 업그레이드 UI
+<img src="https://github.com/user-attachments/assets/821348a9-1ac3-4d76-9956-497edeed5184" width="480"/>
+
+### 🏢 빌딩 진입
+<img src="https://github.com/user-attachments/assets/625f3a36-087e-421b-ac9e-68425b7a3583" width="480"/>
+
+### ⚔️ 전투 장면 1
+<img src="https://github.com/user-attachments/assets/cb159971-2c22-4a94-b064-71a70c1aa0d3" width="480"/>
+
+### 🔥 전투 장면 2
+<img src="https://github.com/user-attachments/assets/e4f78c15-2045-43f1-8bed-4298ac52837c" width="480"/>
+
+### 🏁 엔딩 씬
+<img src="https://github.com/user-attachments/assets/2e3a4e7f-1335-4d16-8525-8b5e8ec3ddb5" width="480"/>
 
 ## 조작법
 ![image](https://github.com/user-attachments/assets/f0f72820-c142-4979-9c6f-260dc30d9c85)
-ㅌ
-
+// 여기 추가설명
 
 ## ✨ 개요
 
@@ -76,13 +99,13 @@ Unity의 3D 기능을 활용하여 다양한 시스템을 체험하고 구현해
 * **몬스터**: 웨이브 단위 스폰 → NavMesh로 이동하여 우주선/건물/플레이어 공격
 * **승리조건**: 플레이어와 우주선 생존 여부에 따라 승패 결정
 
-## 📊 클래스 구조 (클래스 다이어그램)
+## 📊 클래스 구조
 
-![클래스 다이어그램](f0b0b455-34e5-44e0-a5bd-e7f27402bff8.png)
+![image](https://github.com/user-attachments/assets/71f19c40-1220-4ba9-812f-83a182fb8c0c)
 
 > 전체 시스템 흐름과 상호작용 구조를 파악할 수 있는 클래스 다이어그램입니다.
 
-## ⚖️ 개발 환경
+## 개발 환경
 
 * **엔진**: Unity 2022.3.17f1 (LTS)
 * **언어**: C#, Batchfile
